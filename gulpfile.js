@@ -1,10 +1,5 @@
-
-
-
 var gulp = require('gulp');
 var concat = require('gulp-concat');
-
-
 
 
 gulp.task('concat', function () {
@@ -13,9 +8,7 @@ gulp.task('concat', function () {
         // './kalkulator/scss/index.css'
     ])
         .pipe(concat('funkcjacala.js'))
-
-       // .pipe(uglify()) /*    trzeba uglify  */
-
+        // .pipe(uglify()) /*    trzeba uglify  */
         .pipe(gulp.dest('./dist/'))
 });
 
