@@ -1,9 +1,6 @@
 class Osie {
     public static rysuj(): void {
 
-
-
-
         ctx.beginPath();
         ctx.moveTo(10, 300);
         ctx.lineTo(790, 300);

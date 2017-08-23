@@ -1,4 +1,3 @@
-
 var MiejsceZerowe = (function () {
     // KONSTRUKTOR
     function MiejsceZerowe(a, b, c, delta) {

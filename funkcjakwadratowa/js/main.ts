@@ -1,5 +1,5 @@
 
-// aaaaaaaaaaaaaaa
+// aaaaaaaaaaaaaaaaaa
 
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
@@ -193,10 +193,10 @@ function glowna() {
             let punkt001 = new Punkt(wierzcholekX, wierzcholekY );
             punkt001.rysujpunkt();
 
-            let punkt002 = new Punkt(miejsceZerowe01, 0, "aaaaaaaaaaaaaa");
+            let punkt002 = new Punkt(miejsceZerowe01, 0, (Math.round(miejsceZerowe01)));
             punkt002.rysujpunkt();
 
-            let punkt003 = new Punkt(miejsceZerowe02, 0, miejsceZerowe02);
+            let punkt003 = new Punkt(miejsceZerowe02, 0, (Math.round(miejsceZerowe02)));
             punkt003.rysujpunkt();
 
             let parabola = new RysujParabole(miejsceZerowe01, miejsceZerowe02, wierzcholekX, wierzcholekY, 0);

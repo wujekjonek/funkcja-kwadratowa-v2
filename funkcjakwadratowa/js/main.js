@@ -1,5 +1,4 @@
-
-
+// aaaaaaaaaaaaaaaaaa
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 // ***********************************************************
@@ -112,7 +111,8 @@ function glowna() {
         }
         else if (delta > 0) {
             console.log("a < 0");
-            console.log("if delta > 0");
+            console.log("if delta > 0 :)");
+            console.log("************************************************");
             var wierzcholek01 = new Wierzcholek(a, b, c, delta);
             var wierzcholekX = wierzcholek01.obliczWierzcholekX();
             var wierzcholek02 = new Wierzcholek(a, b, c, delta);
@@ -123,9 +123,9 @@ function glowna() {
             var miejsceZerowe02 = miejscezerowe02.obliczMiejsceZerowe02();
             var punkt001 = new Punkt(wierzcholekX, wierzcholekY);
             punkt001.rysujpunkt();
-            var punkt002 = new Punkt(miejsceZerowe01, 0, miejsceZerowe01);
+            var punkt002 = new Punkt(miejsceZerowe01, 0, (Math.round(miejsceZerowe01)));
             punkt002.rysujpunkt();
-            var punkt003 = new Punkt(miejsceZerowe02, 0, miejsceZerowe02);
+            var punkt003 = new Punkt(miejsceZerowe02, 0, (Math.round(miejsceZerowe02)));
             punkt003.rysujpunkt();
             var parabola = new RysujParabole(miejsceZerowe01, miejsceZerowe02, wierzcholekX, wierzcholekY, 0);
             parabola.aujemneparabola2miejsca();
