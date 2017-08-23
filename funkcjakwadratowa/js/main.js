@@ -1,4 +1,3 @@
-// aaaaaaaaaaaaaaaaaa
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 // ***********************************************************
@@ -26,7 +25,7 @@ var ctx = canvas.getContext("2d");
 // let b = 2;
 // let c = -3;
 // ***********************************************************
-var a; //ok klasa
+var a;
 var b;
 var c;
 var delta01;
@@ -37,9 +36,10 @@ Kratka.rysuj();
 Osie.rysuj();
 function glowna() {
     ctx.clearRect(0, 0, 800, 600);
-    Osie.rysuj();
     KreskiPoziome.rysuj();
     KreskiPionowe.rysuj();
+    Kratka.rysuj();
+    Osie.rysuj();
     a = document.getElementById("okienkoa").value;
     b = document.getElementById("okienkob").value;
     c = document.getElementById("okienkoc").value;
@@ -144,4 +144,5 @@ function glowna() {
             parabola.aujemneparabola0miejs();
         }
     }
+    // document.getElementById("z_okienka").value = document.getElementById("okienko3").value;
 }

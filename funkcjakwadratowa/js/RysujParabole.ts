@@ -48,12 +48,13 @@ class RysujParabole {
     adodatnieparabola1miejsce() {
 
         ctx.beginPath();
+        let a = (400 + (this.miejsceZerowe00 * 20));
+        let b = (300 - (this.wierzcholekY * 20));
+        let c = (400 + ((this.miejsceZerowe00 + 2) * 20));
         let e = (400 + ((this.miejsceZerowe00 - 2) * 20));
         ctx.moveTo(e, 10);
-        let a = (400 + (this.miejsceZerowe00 * 20));
-        ctx.lineTo(a, 300);
-        let f = (400 + ((this.miejsceZerowe00 + 2) * 20));
-        ctx.lineTo(f, 10);
+        ctx.bezierCurveTo(e, b, (a - 10), b, a, 300);
+        ctx.bezierCurveTo(c, b, c, 10, c, 10);
         ctx.strokeStyle = "red";
         ctx.stroke();
     }
@@ -62,23 +63,17 @@ class RysujParabole {
     adodatnieparabola0miejs() {
 
         ctx.beginPath();
-
         let a = (400 + (this.wierzcholekX * 20));
         let b = (300 - (this.wierzcholekY * 20));
         let c = (400 + ((this.wierzcholekX + 2) * 20));
         let e = (400 + ((this.wierzcholekX - 2) * 20));
-
         ctx.moveTo(e, 10);
-
         // ctx.lineTo(a, b);
         ctx.bezierCurveTo(e, b, (a - 10), b, a, b);
-
         // ctx.lineTo(c, 10);
         ctx.bezierCurveTo(c, b, c, 10, c, 10);
-
         ctx.strokeStyle = "red";
         ctx.stroke();
-
     }
 
     aujemneparabola0miejs() {

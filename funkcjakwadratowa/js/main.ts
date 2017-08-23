@@ -1,6 +1,3 @@
-
-// aaaaaaaaaaaaaaaaaa
-
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
@@ -40,11 +37,12 @@ var ctx = canvas.getContext("2d");
 // let c = -3;
 // ***********************************************************
 
-let a;         //ok klasa
+let a;
 let b;
 let c;
 let delta01;
 let delta;
+
 
 
 KreskiPoziome.rysuj();
@@ -54,17 +52,11 @@ Osie.rysuj();
 
 
 function glowna() {
-
-
     ctx.clearRect(0, 0, 800, 600);
-
-
-    Osie.rysuj();
-
-
     KreskiPoziome.rysuj();
     KreskiPionowe.rysuj();
-
+    Kratka.rysuj();
+    Osie.rysuj();
 
     a = document.getElementById("okienkoa").value;
     b = document.getElementById("okienkob").value;
@@ -191,7 +183,7 @@ function glowna() {
             let miejscezerowe02 = new MiejsceZerowe(a, b, c, delta);
             let miejsceZerowe02 = miejscezerowe02.obliczMiejsceZerowe02();
 
-            let punkt001 = new Punkt(wierzcholekX, wierzcholekY,(Math.round(wierzcholekX) + "; " + Math.round(wierzcholekY)) );
+            let punkt001 = new Punkt(wierzcholekX, wierzcholekY, (Math.round(wierzcholekX) + "; " + Math.round(wierzcholekY)));
             punkt001.rysujpunkt();
 
 
@@ -225,6 +217,10 @@ function glowna() {
 
 
     }
+
+    // document.getElementById("z_okienka").value = document.getElementById("okienko3").value;
+
+
 
 }
 

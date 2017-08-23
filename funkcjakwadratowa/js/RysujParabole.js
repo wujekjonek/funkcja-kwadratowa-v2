@@ -30,12 +30,13 @@ var RysujParabole = (function () {
     };
     RysujParabole.prototype.adodatnieparabola1miejsce = function () {
         ctx.beginPath();
+        var a = (400 + (this.miejsceZerowe00 * 20));
+        var b = (300 - (this.wierzcholekY * 20));
+        var c = (400 + ((this.miejsceZerowe00 + 2) * 20));
         var e = (400 + ((this.miejsceZerowe00 - 2) * 20));
         ctx.moveTo(e, 10);
-        var a = (400 + (this.miejsceZerowe00 * 20));
-        ctx.lineTo(a, 300);
-        var f = (400 + ((this.miejsceZerowe00 + 2) * 20));
-        ctx.lineTo(f, 10);
+        ctx.bezierCurveTo(e, b, (a - 10), b, a, 300);
+        ctx.bezierCurveTo(c, b, c, 10, c, 10);
         ctx.strokeStyle = "red";
         ctx.stroke();
     };
