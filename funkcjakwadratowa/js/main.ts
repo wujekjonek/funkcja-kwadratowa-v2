@@ -47,8 +47,9 @@ let delta01;
 let delta;
 
 
-// KreskiPoziome.rysuj();
-// KreskiPionowe.rysuj();
+KreskiPoziome.rysuj();
+KreskiPionowe.rysuj();
+Kratka.rysuj();
 Osie.rysuj();
 
 
@@ -61,8 +62,8 @@ function glowna() {
     Osie.rysuj();
 
 
-    // KreskiPoziome.rysuj();
-    // KreskiPionowe.rysuj();
+    KreskiPoziome.rysuj();
+    KreskiPionowe.rysuj();
 
 
     a = document.getElementById("okienkoa").value;
@@ -144,7 +145,7 @@ function glowna() {
             let wierzcholek02 = new Wierzcholek(a, b, c, delta);
             let wierzcholekY = wierzcholek02.obliczWierzcholekY();
 
-            let punkt001 = new Punkt(wierzcholekX, wierzcholekY, (Math.round(wierzcholekX) + ",   " + Math.round(wierzcholekY)));
+            let punkt001 = new Punkt(wierzcholekX, wierzcholekY, (Math.round(wierzcholekX) + "; " + Math.round(wierzcholekY)));
             punkt001.rysujpunkt();
 
             let parabola = new RysujParabole(0, 0, wierzcholekX, wierzcholekY, 0);
@@ -190,13 +191,14 @@ function glowna() {
             let miejscezerowe02 = new MiejsceZerowe(a, b, c, delta);
             let miejsceZerowe02 = miejscezerowe02.obliczMiejsceZerowe02();
 
-            let punkt001 = new Punkt(wierzcholekX, wierzcholekY );
+            let punkt001 = new Punkt(wierzcholekX, wierzcholekY,(Math.round(wierzcholekX) + "; " + Math.round(wierzcholekY)) );
             punkt001.rysujpunkt();
 
-            let punkt002 = new Punkt(miejsceZerowe01, 0, (Math.round(miejsceZerowe01)));
+
+            let punkt002 = new Punkt(miejsceZerowe01, 0, (Math.round(miejsceZerowe01 * 100) / 100));
             punkt002.rysujpunkt();
 
-            let punkt003 = new Punkt(miejsceZerowe02, 0, (Math.round(miejsceZerowe02)));
+            let punkt003 = new Punkt(miejsceZerowe02, 0, (Math.round(miejsceZerowe02 * 100) / 100);
             punkt003.rysujpunkt();
 
             let parabola = new RysujParabole(miejsceZerowe01, miejsceZerowe02, wierzcholekX, wierzcholekY, 0);
@@ -214,7 +216,7 @@ function glowna() {
             let wierzcholek02 = new Wierzcholek(a, b, c, delta);
             let wierzcholekY = wierzcholek02.obliczWierzcholekY();
 
-            let punkt001 = new Punkt(wierzcholekX, wierzcholekY, Math.round(wierzcholekX, -1) + ",   " + Math.round(wierzcholekY, 1);
+            let punkt001 = new Punkt(wierzcholekX, wierzcholekY, Math.round(wierzcholekX, -1) + "; " + Math.round(wierzcholekY, 1);
             punkt001.rysujpunkt();
 
             let parabola = new RysujParabole(0, 0, wierzcholekX, wierzcholekY, 0);

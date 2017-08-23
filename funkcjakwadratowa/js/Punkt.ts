@@ -11,15 +11,16 @@ class Punkt {
     ctx: string;
 
 // KONSTRUKTOR
-    constructor(x: number, y: number, opis = null) {
+    constructor(x: number, y: number, opis: string) {
         this.x = x;
         this.y = y;
-        if(opis) {
-            this.opis = opis;
-        }
-        else{
-            this.opis = x.toString();
-        }
+        this.opis = opis;
+        // if(opis) {
+        //     this.opis = opis;
+        // }
+        // else{
+        //     this.opis = x.toString();
+        // }
 
     }
 

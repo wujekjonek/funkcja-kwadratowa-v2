@@ -3,15 +3,15 @@
 var Punkt = (function () {
     // KONSTRUKTOR
     function Punkt(x, y, opis) {
-        if (opis === void 0) { opis = null; }
         this.x = x;
         this.y = y;
-        if (opis) {
-            this.opis = opis;
-        }
-        else {
-            this.opis = x.toString();
-        }
+        this.opis = opis;
+        // if(opis) {
+        //     this.opis = opis;
+        // }
+        // else{
+        //     this.opis = x.toString();
+        // }
     }
     // METODY
     Punkt.prototype.rysujpunkt = function () {
