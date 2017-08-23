@@ -1,16 +1,4 @@
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
+
 var MiejsceZerowe = (function () {
     // KONSTRUKTOR
     function MiejsceZerowe(a, b, c, delta) {

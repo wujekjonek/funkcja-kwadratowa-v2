@@ -1,20 +1,3 @@
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-// test GIT sdfhsfhsfhsfhsfhhhhzgddgadgadgadgadgadgadgadgadgadgag
-
-
-
-
 class MiejsceZerowe {
 
     // POLA KLASY

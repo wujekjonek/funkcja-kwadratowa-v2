@@ -37,15 +37,6 @@ class Osie {
        ctx.stroke();
      //   ctx.fill();
 
-
-
-
-
-
-
-
-
-
         ctx.font = "15px Arial";
         ctx.fillText("oś Y", 410, 30);
         ctx.fillText("oś X", 750, 320);

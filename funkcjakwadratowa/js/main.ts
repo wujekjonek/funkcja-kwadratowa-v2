@@ -1,3 +1,6 @@
+
+// aaaaaaaaaaaaaaa
+
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
@@ -44,33 +47,22 @@ let delta01;
 let delta;
 
 
-
-
-
-
 // KreskiPoziome.rysuj();
 // KreskiPionowe.rysuj();
 Osie.rysuj();
 
 
-
-
 function glowna() {
 
 
+    ctx.clearRect(0, 0, 800, 600);
 
 
-     ctx.clearRect(0, 0, 800, 600);
-
-
-     Osie.rysuj();
-
+    Osie.rysuj();
 
 
     // KreskiPoziome.rysuj();
     // KreskiPionowe.rysuj();
-
-
 
 
     a = document.getElementById("okienkoa").value;
@@ -182,7 +174,9 @@ function glowna() {
         // ***********************************************************
         else if (delta > 0) {
             console.log("a < 0");
-            console.log("if delta > 0");
+            console.log("if delta > 0 :)");
+            console.log("************************************************");
+
 
             let wierzcholek01 = new Wierzcholek(a, b, c, delta);
             let wierzcholekX = wierzcholek01.obliczWierzcholekX();
@@ -196,10 +190,10 @@ function glowna() {
             let miejscezerowe02 = new MiejsceZerowe(a, b, c, delta);
             let miejsceZerowe02 = miejscezerowe02.obliczMiejsceZerowe02();
 
-            let punkt001 = new Punkt(wierzcholekX, wierzcholekY);
+            let punkt001 = new Punkt(wierzcholekX, wierzcholekY );
             punkt001.rysujpunkt();
 
-            let punkt002 = new Punkt(miejsceZerowe01, 0, miejsceZerowe01);
+            let punkt002 = new Punkt(miejsceZerowe01, 0, "aaaaaaaaaaaaaa");
             punkt002.rysujpunkt();
 
             let punkt003 = new Punkt(miejsceZerowe02, 0, miejsceZerowe02);
