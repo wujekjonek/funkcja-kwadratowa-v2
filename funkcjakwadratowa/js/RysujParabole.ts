@@ -8,8 +8,10 @@ class RysujParabole {
     miejsceZerowe00: number;
 
 // KONSTRUKTOR
-    constructor(miejsceZerowe01: number, miejsceZerowe02: number,
-                wierzcholekX: number, wierzcholekY: number,
+    constructor(miejsceZerowe01: number,
+                miejsceZerowe02: number,
+                wierzcholekX: number,
+                wierzcholekY: number,
                 miejsceZerowe00: number) {
         this.miejsceZerowe01 = miejsceZerowe01;
         this.miejsceZerowe02 = miejsceZerowe02;
